@@ -1,0 +1,31 @@
+{
+	"name": "fjl-cli",
+	"version": "1.0.0",
+	"description": "fast-js-lib",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"bin",
+		"README.md",
+		"template.json",
+		"package.json"
+	],
+	"bin": {
+		"fjl": "bin/index.js",
+		"fjl-add": "bin/add.js",
+		"fjl-delete": "bin/delete.js",
+		"fjl-init": "bin/init.js",
+		"fjl-list": "bin/list.js"
+	},
+	"author": "prozac <516060659@qq.com> (https://github.com/luvsunlight)",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"commander": "^3.0.0",
+		"download-git-repo": "^2.0.0",
+		"inquirer": "^6.5.1",
+		"ora": "^3.4.0"
+	}
+}
