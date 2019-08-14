@@ -1,6 +1,12 @@
 # Intro
 
-A fast-js-lib(fjl) scaffold
+😝 fjl(fast-js-lib),一个 JS 第三方库快速开发 cli 工具
+
+# Installation
+
+```
+npm i fjl-cli -g
+```
 
 # Usage
 
